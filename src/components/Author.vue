@@ -3,7 +3,7 @@
 
 		<g-image alt="Author image" class="author__image" src="~/assets/images/lkmx_logo.svg" width="190" height="64" blur="0" />
 
-		<h1 v-if="showTitle" class="author__site-title">
+		<h1 v-if="showTitle" class="author__site-title" on-click="ga('send', 'event', 'home', 'titulo página', 'click en título')">
 			{{ $static.metadata.siteName }}
 		</h1>
 <section class="author__intro">
