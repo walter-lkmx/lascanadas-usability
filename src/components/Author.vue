@@ -9,7 +9,7 @@
 <section class="author__intro">
 	<h2>Lee antes de iniciar</h2>
 	<p>
-			A continuación encontrarás una serie de misiones que nos permitirán evaluar el desempeño de nuestro sistema, siéntete libre de explorar el sitio, pero asegurate de llevar a cabo las misiones, al terminar cada una de ellas regresa a este sitio para encontrar instrucciones sobre tu siguiente misión..
+			A continuación encontrarás una serie de misiones que nos permitirán evaluar el desempeño de nuestro sistema, siéntete libre de explorar el sitio, pero asegurate de llevar a cabo las misiones, al terminar cada una de ellas regresa a este sitio para encontrar instrucciones sobre tu siguiente misión.
 		</p>
 </section>
 		
