@@ -8,7 +8,7 @@
       <g-image alt="Author image" class="tap__image" src="~/assets/images/tap.gif" width="50" height="50" blur="0" />
       <h2 class="post-card__title" v-html="post.title" />
       <p class="post-card__description" v-html="post.description" />
-
+      <h5 class="post-card__start-mission">Inicia esta misión ➤</h5>
       <!-- <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" /> -->
 
@@ -71,7 +71,10 @@ a {
     z-index: 1;
     position: relative;
   }
-
+  &__start-mission {
+    color: #FF2D55;
+    margin: 0;
+  }
   &__link {
     position: absolute;
     top: 0;
