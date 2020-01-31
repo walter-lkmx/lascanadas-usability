@@ -3,7 +3,7 @@
 
 		<g-image alt="Author image" class="author__image" src="~/assets/images/lkmx_logo.svg" width="190" height="64" blur="0" />
 
-		<a href="" v-if="showTitle" class="author__site-title" on-click="ga('send', 'event', 'home', 'titulo página', 'click en título');">
+		<a id="boton" href="" v-if="showTitle" class="author__site-title" on-click="ga('send', 'event', 'home', 'titulo página', 'click en título');">
 			{{ $static.metadata.siteName }}
 		</a>
 <section class="author__intro">
@@ -29,6 +29,12 @@ query {
 export default {
 	props: ['showTitle']
 }
+</script>
+
+<script>
+$('#boton').on('click', function() {
+  ga('send', 'event', 'button', 'click');
+});
 </script>
 
 <style lang="scss">
