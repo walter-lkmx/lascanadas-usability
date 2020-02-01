@@ -31,12 +31,6 @@ export default {
 }
 </script>
 
-<script>
-$('#boton').on('click', function() {
-  ga('send', 'event', 'button', 'click');
-});
-</script>
-
 <style lang="scss">
 .author {
 	margin: 0 auto;
