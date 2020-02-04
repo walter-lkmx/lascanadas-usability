@@ -3,9 +3,9 @@
 
 		<g-image alt="Author image" class="author__image" src="~/assets/images/lkmx_logo.svg" width="190" height="64" blur="0" />
 
-		<a id="boton" href="" v-if="showTitle" class="author__site-title" on-click="ga('send', 'event', 'home', 'titulo página', 'click en título');">
+		<h1 id="boton" href="" v-if="showTitle" class="author__site-title" on-click="ga('send', 'event', 'home', 'titulo página', 'click en título');">
 			{{ $static.metadata.siteName }}
-		</a>
+		</h1>
 <section class="author__intro">
 	<h2>Lee antes de iniciar</h2>
 	<p>
